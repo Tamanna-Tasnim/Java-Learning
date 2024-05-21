@@ -101,7 +101,7 @@ public class ifcondition
 
 //Display week names based on week number
 
-        int weekno=7;
+         /*int weekno=7;
 
         if(weekno==1)
         {
@@ -127,10 +127,43 @@ public class ifcondition
         {
             System.out.println("It's Thursday.");
         }
-        else 
+        else if(weekno==7)
         {
             System.out.println("It's Friday!");
         }
+        else  
+        {
+            System.out.println("Invalid week number.");
+        }*/
+
+
+//Switch case statement
+
+        int weekno=10;
+
+        switch(weekno)
+        {
+            case 1: System.out.println("Saturday");
+            break;
+            case 2: System.out.println("Sunday");
+            break;
+            case 3: System.out.println("Monday");            
+            break;
+            case 4: System.out.println("Tuesday");
+            break;
+            case 5: System.out.println("Wednesday");
+            break;
+            case 6: System.out.println("Thursday");
+
+            
+            break;
+            case 7: System.out.println("Friday");
+            break;
+            default: System.out.println("Invalid");
+
+
+        }
+
 
     }
     
