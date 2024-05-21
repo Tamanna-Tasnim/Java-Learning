@@ -107,6 +107,7 @@ public class operatorspractise
         String result= (person_age>=18)? "Eligible":"Not eligible";
         System.out.println(result);
 
+        
 
 
 
