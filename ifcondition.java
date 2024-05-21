@@ -26,7 +26,7 @@ public class ifcondition
         if(n%2==0)
         System.out.println("Number is even");
         else
-        System.out.println("Number is odd"); */
+        System.out.println("Number is odd"); 
 
 //Positive, negative, zero number check
         int n=20;
@@ -42,8 +42,23 @@ public class ifcondition
         else 
         {
             System.out.println("Number is zero.");    
-        }
+        } */
 
+//Largest among three numbers
+
+        int a=12, b=20, c=11;
+        if (a>b && a>c)
+        {
+            System.out.println("a is largest number.");
+        }
+        else if (b>a && b>c)
+        {
+            System.out.println("b is largest number.");
+        }
+        else
+        {
+            System.out.println("c is largest number.");
+        }
     }
     
 }
