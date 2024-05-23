@@ -61,24 +61,38 @@ public class looppractise
         }
         while(i<=10);*/
 
-        int i=10;
+        /*int i=10;
         do
         {
          System.out.println(i);
          i--;
         }
-        while(i>=1);
+        while(i>=1);*/
 
         
+//For looping
+      // for(int i=1; i<=10; i++) [print 1-10]
+      //for(int i=2; i<=10; i+=2) [print even number]
+      //for(int i=1; i<=10; i+=2) [print odd]
+      /*{
+         System.out.println(i);
+      }*/
 
+     for(int i=1; i<=5; i++)
+      {
+         for(int j=i; j<5; j++)
+         {
+            System.out.print(" ");
+         }
+         for (int k=1; k<=(2*i-1); k++) 
+         {
+            System.out.print("*");
+         }
+         System.out.println();      
+      }
+     
+         
 
-
-
-
-
-
-
-
-    }
+   }
     
 }
